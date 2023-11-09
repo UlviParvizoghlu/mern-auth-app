@@ -6,7 +6,6 @@ import SignIn from './pages/SignIn'
 import SignUp from './pages/SignUp'
 import Profile from './pages/Profile'
 import Header from './layouts/Header'
-import Footer from './layouts/Footer'
 const App = () => {
   return (
     <Router>
@@ -18,7 +17,6 @@ const App = () => {
         <Route path="/sign-up" element={<SignUp/>}/>
         <Route path="/profile" element={<Profile/>}/>
       </Routes>
-      <Footer/>
     </Router>
   )
 }
