@@ -16,6 +16,7 @@ mongoose.connect(process.env.DB_URL).then(() => {
 // Removed the redeclaration of __dirname
 const app = express();
 
+
 app.use(express.static(path.join(__dirname, '/client/dist')));
 
 app.get('*', (req, res) => {
