@@ -24,7 +24,7 @@ To get started with the project, follow these steps:
 
 1. Clone the repository
 2. Install dependencies using `npm install`
-3. Run the front-end and back-end servers
+3. Run the front-end and back-end servers `npm run dev`
 4. Customize the application based on your requirements
 
 Feel free to contribute, report issues, or enhance the project by creating pull requests. Your contributions are highly appreciated!
