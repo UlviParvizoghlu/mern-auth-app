@@ -32,7 +32,6 @@ export default function OAuth() {
 
       // Server response
       const data = await res.json();
-      console.log('Server response:', data);
 
       // Dispatch Redux action and navigate on success
       dispatch(signInSuccess(data));
